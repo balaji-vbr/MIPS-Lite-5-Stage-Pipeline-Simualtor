@@ -1,0 +1,92 @@
+# vsim -c -do "run -all; exit" work.top 
+# Start time: 14:07:39 on Jun 09,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2019.2_1 linux_x86_64 May 13 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.Types(fast)
+# Loading work.top(fast)
+# run -all
+# ** Note: $finish    : writeBackStage.sv(29)
+#    Time: 20195 ns  Iteration: 2  Instance: /top/DUT/WB
+# --------------------------------------------------------------------------
+# 			     Pipeline Without Forwarding 			
+# --------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------
+# 
+# 			 Instruction Counts                             
+# --------------------------------------------------------------------------
+# Total Number of Instructions = 910
+# Total Number of Arithmetic Instructions = 375
+# Total Number of Logical Instructions = 61
+# Total Number of Memory access instruction = 300
+# Total Number of Control transfer instruction = 174
+# 
+# -----------------------------------------------
+# 
+#  Final Register Status 
+# -----------------------------------------------
+# Program Counter = 112
+# R0 = 0
+# R1 = 0
+# R2 = 0
+# R3 = 0
+# R4 = 0
+# R5 = 0
+# R6 = 0
+# R7 = 0
+# R8 = 0
+# R9 = 0
+# R10 = 0
+# R11 = 1044
+# R12 = 1836
+# R13 = 2640
+# R14 = 25
+# R15 = -188
+# R16 = 213
+# R17 = 29
+# R18 = 3440
+# R19 = -1
+# R20 = -2
+# R21 = -1
+# R22 = 76
+# R23 = 3
+# R24 = -1
+# R25 = 3
+# R26 = 0
+# R27 = 0
+# R28 = 0
+# R29 = 0
+# R30 = 0
+# R31 = 0
+# -----------------------------------------------
+# 
+#  Final Memory State 
+# -----------------------------------------------
+# Address = 1400 Contents =0
+# Address = 1404 Contents =0
+# Address = 1408 Contents =0
+# -----------------------------------------------
+# 
+#  Timing Simulator 
+# -----------------------------------------------
+# 
+# Total number of clock Cycles = 1782
+# STALLS=557
+# Total Data Hazards=309
+# -----------------------------------------------
+# End time: 14:07:40 on Jun 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
